@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- topbar -->
+    <div class="topbar p-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 d-none d-md-flex">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-1 px-1 fs-3">
+                <i class="fa-regular fa-message"></i>
+              </div>
+              <div class="col-10 d-flex flex-column">
+                <span>Phone Number</span>
+                <span> +977-9818181818 </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-none d-md-flex justify-content-center calendar"
+          >
+            <div class="row justify-content-between align-items-center">
+              <div class="col-1 px-1 fs-3">
+                <i class="fa-regular fa-calendar"></i>
+              </div>
+              <div class="col-10 d-flex flex-column">
+                <span>Phone Number</span>
+                <span> +977-9818181818 </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 d-flex justify-content-center profile">
+            <div class="row align-items-center">
+              <div class="col-2 fs-3">
+                <i class="fa-regular fa-user"></i>
+              </div>
+              <div class="col-8">
+                <button class="login-btn mx-3">Login</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- navbar -->
+    <div class="nav-bar container">
+      <nav class="navbar navbar-expand-lg bgilight">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand h1 fw-bold">LOGO Here</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+              <li class="nav-item px-4">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <button class="goToBlog">Go to Blog</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- banner -->
+    <div class="container-fluid">
+      <div class="banner">
+        <div
+          class="banner-content container d-flex flex-column justify-content-center align-items-center"
+        >
+          <div class="row flex-column py-5 mt-5">
+            <div class="col-md-6 col-sm-12 d-flex flex-column">
+              <span class="h2"> Introduction </span>
+              <span class="fs-3 banner-desc mt-4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Facilis tempora quisquam adipisci ducimus culpa, officiis
+                placeat id reiciendis magnam sequi atque quasi quis esse, quo
+                sapiente temporibus sunt quaerat aperiam?
+              </span>
+            </div>
+            <button class="banner-contact fw-bold mt-4">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- banner cards -->
+    <div class="banner-cards container">
+      <div class="row justify-content-center align-items-center mt-sm-5">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+          <div class="cards">
+            <div class="icon d-flex justify-content-center align-items-center">
+              <i class="fa-regular fa-handshake"></i>
+            </div>
+            <div class="card-content text-center">
+              <span class="h2">Heading</span>
+              <p class="fs-5 p-2 mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                dignissimos velit animi, vero ipsa iusto maxime obcaecati neque
+                iste veritatis aspernatur.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+          <div class="cards">
+            <div class="icon d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-scale-balanced"></i>
+            </div>
+            <div class="card-content text-center">
+              <span class="h2">Heading</span>
+              <p class="fs-5 p-2 mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                dignissimos velit animi, vero ipsa iusto maxime obcaecati neque
+                iste veritatis aspernatur.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+          <div class="cards">
+            <div class="icon d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-scale-balanced"></i>
+            </div>
+            <div class="card-content text-center">
+              <span class="h2">Heading</span>
+              <p class="fs-5 p-2 mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                dignissimos velit animi, vero ipsa iusto maxime obcaecati neque
+                iste veritatis aspernatur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- service -->
+    <div class="container" id="services">
+      <div
+        class="service-heading d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="h2">Services</div>
+        <div class="slogan">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="row">
+            <div class="col-2">
+              <i class="fa-regular fa-image p-md-1 service-icons p-md-1"></i>
+            </div>
+            <div class="col-10 d-flex flex-column">
+              <span class="h3"> Title </span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestiae, maiores commodi? Animi doloribus quam, quae numquam,
+                voluptate odio quisquam similique eaque, distinctio vero
+                obcaecati soluta atque pariatur perspiciatis at natus?
+              </p>
+              <a href="#" class="read"
+                >Read More <i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="row">
+            <div class="col-2">
+              <i class="fa-regular fa-image service-icons p-md-1"></i>
+            </div>
+            <div class="col-10 d-flex flex-column">
+              <span class="h3"> Title </span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestiae, maiores commodi? Animi doloribus quam, quae numquam,
+                voluptate odio quisquam similique eaque, distinctio vero
+                obcaecati soluta atque pariatur perspiciatis at natus?
+              </p>
+              <a href="#" class="read"
+                >Read More <i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="row">
+            <div class="col-2">
+              <i class="fa-regular fa-image service-icons p-md-1"></i>
+            </div>
+            <div class="col-10 d-flex flex-column">
+              <span class="h3"> Title </span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestiae, maiores commodi? Animi doloribus quam, quae numquam,
+                voluptate odio quisquam similique eaque, distinctio vero
+                obcaecati soluta atque pariatur perspiciatis at natus?
+              </p>
+              <a href="#" class="read"
+                >Read More <i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="row">
+            <div class="col-2">
+              <i class="fa-regular fa-image service-icons p-md-1"></i>
+            </div>
+            <div class="col-10 d-flex flex-column">
+              <span class="h3"> Title </span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestiae, maiores commodi? Animi doloribus quam, quae numquam,
+                voluptate odio quisquam similique eaque, distinctio vero
+                obcaecati soluta atque pariatur perspiciatis at natus?
+              </p>
+              <a href="#" class="read"
+                >Read More <i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="row">
+            <div class="col-2">
+              <i class="fa-regular fa-image service-icons p-md-1"></i>
+            </div>
+            <div class="col-10 d-flex flex-column">
+              <span class="h3"> Title </span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestiae, maiores commodi? Animi doloribus quam, quae numquam,
+                voluptate odio quisquam similique eaque, distinctio vero
+                obcaecati soluta atque pariatur perspiciatis at natus?
+              </p>
+              <a href="#" class="read"
+                >Read More <i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="row">
+            <div class="col-2">
+              <i class="fa-regular fa-image service-icons p-md-1"></i>
+            </div>
+            <div class="col-10 d-flex flex-column">
+              <span class="h3"> Title </span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestiae, maiores commodi? Animi doloribus quam, quae numquam,
+                voluptate odio quisquam similique eaque, distinctio vero
+                obcaecati soluta atque pariatur perspiciatis at natus?
+              </p>
+              <a href="#" class="read"
+                >Read More <i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact  -->
+    <div class="mt-5 contact" id="contact">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-7 col-sm-6 mb-5">
+            <form>
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="Jhon Doe"
+                />
+                <label class="label" for="floatingInput">Full Name</label>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6 mb-3 col-sm-12">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingemail"
+                      placeholder="jhondoe123@example.com"
+                    />
+                    <label class="label" for="floatingemail">Enter Email</label>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3 col-sm-12">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingphone"
+                      placeholder="123456789"
+                    />
+                    <label class="label" for="floatingphone">Enter Phone</label>
+                  </div>
+                </div>
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea"
+                  ></textarea>
+                  <label class="label" for="floatingTextarea"
+                    >Message Here</label
+                  >
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary fw-bold fs-4 mt-3">
+                Submit
+              </button>
+            </form>
+          </div>
+          <div class="col-md-5 col-sm-6 contact-desc">
+            <span class="h1 fw-bold"> Contact Details </span>
+            <p class="contact-desc-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              voluptatum, incidunt distinctio quidem officiis consequatur
+              consequuntur voluptate odio perspiciatis a eaque excepturi
+              repellendus saepe sed velit, dolorum praesentium beatae porro.
+            </p>
+            <p class="mt-4">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <span class="h3"> (+977) 9818181818 </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer d-md-block d-none">
+      <div class="container">
+        <div class="row align-items-center p-1">
+          <div class="col-md-4 d-md-flex d-none align-items-center">
+            <h2>Logo Here</h2>
+          </div>
+          <div class="col-md-8 d-md-block d-none align-items-center mt-2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, maxime aliquam? Neque suscipit non ut, quidem nobis reiciendis soluta quos debitis eum omnis, ex, ab porro quam quia ipsa illum.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

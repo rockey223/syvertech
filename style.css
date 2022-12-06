@@ -1,0 +1,145 @@
+/* topbar section */
+.topbar {
+  background-color: #212733;
+  color: #fff;
+}
+
+.fa-message,
+.fa-calendar,
+.fa-user {
+  background-color: #b8aa96;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.calendar {
+  background-color: #2b3340;
+}
+
+.login-btn {
+  padding: 0 50px;
+  background-color: #b8aa96;
+  color: #000;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  height: 30px;
+}
+
+/* navbar section */
+.nav-link {
+  color: #000 !important;
+}
+
+.goToBlog {
+  background-color: #212733;
+  border-radius: 30px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #fff;
+}
+
+/* bannersection */
+.banner {
+  height: 100vh;
+  background-image: url("assets/img/hero-banner.jpg");
+  background-size: cover;
+}
+
+.banner-desc {
+  text-align: justify;
+}
+
+.banner-contact {
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  width: 150px !important;
+  background-color: #212733;
+  color: #fff;
+}
+
+/* banenr card section */
+.cards {
+  height: 350px;
+  background: #212733;
+  position: relative;
+  bottom: 75px;
+  border-radius: 10px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 40px;
+  position: relative;
+  bottom: 20px;
+}
+.fa-handshake,
+.fa-scale-balanced {
+  background-color: #212733;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 3px 4px 0px 1px #ffffff;
+}
+
+.card-content {
+  color: #fff;
+}
+
+/* services section */
+.service-icons {
+  background-color: #d1cac4;
+
+  border-radius: 3px;
+  font-size: 30px;
+}
+.read {
+  text-decoration: none;
+}
+
+/* contact section */
+.contact {
+  background-image: url("assets/img/contact.jpg");
+  background-size: cover;
+}
+
+.label {
+  color: rgb(255, 255, 255) !important;
+}
+.form-control {
+  background: transparent !important;
+  box-sizing: border-box !important;
+  border: none !important;
+  border-bottom: 2px solid #fff !important;
+  color: #fff !important;
+}
+.form-control:focus {
+  background: transparent !important;
+
+  box-shadow: none !important;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: rgb(168, 168, 168) !important;
+}
+.btn-primary {
+  background-color: #fff !important;
+  color: #000 !important;
+  width: 150px;
+  border: none !important;
+}
+.contact-desc {
+  color: #fff;
+}
+.contact-desc-p {
+  text-align: justify;
+}
+
+
+/* footer */
+.footer{
+    background-color: #CDC6BC;
+    height: auto;
+}
